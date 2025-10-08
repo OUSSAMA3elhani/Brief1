@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Exploration</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+      <!-- NAVIGATION -->
+  <nav class="navbar">
+  <div class="logo-container">
+    <img id="imglogo" src="./images/From KlickPin CF Space Badge Vector HD PNG Images.png" alt="logo">
+    <span class="logo">SPACEX EXPLORATION</span>
+  </div>
+    <ul class="nav-links">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Missions.html">Missions</a></li>
+      <li><a href="Technologies.html">Technology</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <address>
+      Contact: <a href="mailto:Space@gmail.com ">Space@gmail.com</a>
+      <br><br>
+      Tel :<a>+212 700-000000</a>
+      <br><br>
+      Address : <a>États-Unis (format US) 1287 Willow Creek Drive Apt. 5C Austin, TX 78704 USA</a>
+  </address>
+
+     <!-- FOOTER -->
+  <footer id="cantactfooter">
+    <p>© 2025 SpaceX Exploration — Student Project</p>
+  </footer> 
+  
+
+  <script>
+    // Reveal sections on scroll
+    const sections = document.querySelectorAll('.section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.2 });
+    sections.forEach(sec => observer.observe(sec));
+  </script>
+</body>
+</html>
