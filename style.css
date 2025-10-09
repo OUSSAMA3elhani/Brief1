@@ -4,8 +4,26 @@
 *::after {
   box-sizing: border-box;
 }
-
-
+@font-face{
+  font-family: "Drexs";
+  src: url(Drexs.otf);
+}
+@font-face {
+  font-family: "Spaced OTF";
+  src: url(Spaced\ OTF.otf);
+}
+@font-face{
+  font-family: "Venus";
+  src: url(Venus\ Rising\ Rg.otf);
+}
+@font-face {
+  font-family: "toxigenesis bd";
+  src: url(toxigenesis\ bd.otf);
+  font-weight: lighter;
+}
+p{
+  font-family: "Spaced OTF";
+}
 #imglogo {
   width: 70px; 
   height: auto;
@@ -42,13 +60,14 @@ img { max-width: 100%; height: auto; display: block; }
   z-index: 1000;
 }
 .logo {
-  
+  font-family: "Venus";
   font-size: 1.1rem;
   font-weight: 700;
   color: #1e90ff;
   white-space: nowrap;
 }
 .nav-links {
+  font-family: "toxigenesis bd"; 
   list-style: none;
   display: flex;
   gap: 20px;
@@ -71,7 +90,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .banner {
   height: 100vh;
-  background: url('images/banner.jpg') center/cover fixed no-repeat;
+  background: url('védio/astrocover.gif') center/cover fixed no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,7 +229,7 @@ address {
   margin-top: 100px; 
 }
 footer {
-  
+  font-family: "Drexs";
   text-align: center;
   padding: 25px 20px;
   background-color: #000;
