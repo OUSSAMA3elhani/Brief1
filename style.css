@@ -21,6 +21,7 @@
   src: url(toxigenesis\ bd.otf);
   font-weight: lighter;
 }
+
 p{
   font-family: "Spaced OTF";
 }
@@ -43,8 +44,11 @@ html, body {
   scroll-behavior: smooth;
 }
 
-img { max-width: 100%; height: auto; display: block; }
-
+img { 
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+}
 /* NAVBAR */
 .navbar {
   position: fixed;
@@ -53,7 +57,6 @@ img { max-width: 100%; height: auto; display: block; }
   right: 0;
   padding: 15px 4vw;
   background: rgba(0, 0, 0, 0.032);
-  backdrop-filter: blur(8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,7 +77,6 @@ img { max-width: 100%; height: auto; display: block; }
   margin: 0;
   padding: 0;
 }
-
 .nav-links a {
   color: #fff;
   text-decoration: none;
@@ -87,7 +89,6 @@ img { max-width: 100%; height: auto; display: block; }
   transform: translateY(-1px);
 }
 /* BANNER */
-
 .banner {
   height: 100vh;
   display: flex;
@@ -108,9 +109,6 @@ img { max-width: 100%; height: auto; display: block; }
   transform: translate(-50%, -50%);
   z-index: 0;
     }
-
-
-
 section h2{
   color: #1e90ff;
   margin-bottom: 25px;
@@ -118,13 +116,81 @@ section h2{
   letter-spacing: 2px;
 
 }
+.con{
+  font-family: "toxigenesis bd";
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
 
+}
+.Contact-Us{
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 15px;
+}
 
+.Tallk_With_Me input {
+  background-color: #212121;
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #1e90ff;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px 0;
+}
+.messageinput {
+  background-color: #212121;
+  width: 350px;
+  height: 80px;
+  padding: 10px;
+  border: 2px solid #1e90ff;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px 0 30px 0;
+}
+.Tallk_With_Me input:focus , .messageinput:focus {
+  color: rgb(0, 255, 255);
+  background-color: #212121;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
+} 
+.button:hover {
 
+  color: rgb(0, 255, 255);
+  background-color: #212121;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
+  animation: glow 2s infinite alternate;
+} 
+
+.button{
+
+  color: #1e90ff;
+  background-color: #212121;
+    padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+address {
+  font-family: "toxigenesis bd";
+  background-color: #212121;
+  border: 2px solid #1e90ff;
+  border-radius: 10px;
+  padding: 25px 20px;
+  padding-bottom: 75px;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
 .banner-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.37);
 }
 .banner-content {
   margin-top: 20px;
@@ -167,7 +233,6 @@ section h2{
   to { text-shadow: 0 0 40px #1e90ff; }
 }
 
-/* SECTION STYLE */
 .section {
   padding: 100px 20px;
   max-width: 1000px;
@@ -196,14 +261,12 @@ section h2{
   letter-spacing: 2px;
 }
 
-/* CARDS */
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
 }
-
 .card {
   background: #1a1a1a;
   border-radius: 12px;
@@ -243,15 +306,9 @@ section h2{
 
 /* FOOTER */
 
-address {
-  text-align: center;
-  padding: 25px 20px;
-  /*background-color: #000;*/
-  font-size: 0.9rem;
-  letter-spacing: 0.5px;
-  margin-top: 100px; 
-}
+
 .banner-attribition{
+  
   font-family: "Drexs";
   position: absolute;
   bottom: 10px;
@@ -259,15 +316,7 @@ address {
   text-align: center;
   font-size: 0.8rem;
   color: #ccc;
-  z-index: 2;
-}
-#cantactfooter{
-  text-align: center;
-  padding: 25px 20px;
-   background-color: #000;
-  font-size: 0.9rem;
-  letter-spacing: 0.5px;
-  margin: 25%;
+  /* z-index: 1999; */
 }
 
 /* RESPONSIVE */
