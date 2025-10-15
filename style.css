@@ -304,8 +304,6 @@ address {
   box-shadow: 0 0 20px #1e90ff70;
 }
 
-/* FOOTER */
-
 
 .banner-attribition{
   
@@ -316,7 +314,7 @@ address {
   text-align: center;
   font-size: 0.8rem;
   color: #ccc;
-  /* z-index: 1999; */
+  z-index: 1999;
 }
 
 /* RESPONSIVE */
